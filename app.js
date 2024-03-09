@@ -1,5 +1,5 @@
 function countDown() {
-var date = new Date("March 23, 2023 05:00:00 GMT+05:");
+var date = new Date("March 23, 2024 05:00:00 GMT+05:");
 var control = new Date().getTime();
 var time = date - control;
 var days = Math.floor (time / (1000* 60 *60 * 24));
